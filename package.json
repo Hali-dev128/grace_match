@@ -12,7 +12,8 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
 		"format": "prettier --write .",
 		"lint": "prettier --check .",
-		"serve-json": "set PORT=4000 && json-server --watch data2.json"
+		"serve-json": "set PORT=4000 && json-server --watch data2.json",
+		"install": "npm install --legacy-peer-deps"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^6.0.0",
